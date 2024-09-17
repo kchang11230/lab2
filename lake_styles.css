@@ -1,0 +1,66 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+@charset "utf-8";
+body{
+   background-color: black;
+   color: white;
+}
+
+html {
+   height: 100%; 
+}
+   
+   body > main {
+   display: flex; 
+   flex-direction: row; 
+   flex-grow: 1; 
+   } 
+   
+
+
+body aside{
+   background-color:rgb(209,187,114); 
+}
+
+body  aside  a{
+   color:pink
+}
+
+footer{
+   background-color:rgb(77,70,78);
+}
+
+body header nav ul{
+   background-color: rgb(120,74,120);
+   a:link{
+      color:rgba(256,256,256,0.5)
+      
+   }
+   a{text-decoration: none;}
+}
+
+main>section#rightcol{
+   background-color: rgb(88,45,90);
+   a:link{
+      color:rgba(142,111,145,0.5)
+   }
+   a{text-decoration: none;}
+}
+
+blockquote{
+   color: rgb(213,150,230)
+}
+
+main>section#leftcol aside h1{
+   text-align: center;
+}
